@@ -1,0 +1,94 @@
+body{
+    background-color: #F1F5F8; 
+}
+
+.login-card{
+    font-family: Montserrat;
+    width: 480px;
+    height: 520px;
+    background-color: white;
+    margin: 40px auto;
+}
+
+.ktitle{ 
+    padding-top: 30px; 
+}
+.ksign-in{
+    font-weight: 700;
+}
+
+.kbutton{
+    background-color: #F1F5F8;
+    width: 250px;
+    padding: 10px 0px;
+    margin: 10px auto;
+    font-size: 15px;
+}
+
+.kbutton a{ 
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.Otext{
+    text-align:center;
+    margin: 20px 0px;
+}
+
+form{ 
+    width: 250px;
+    margin: 10px auto;
+}
+
+.m-input{ 
+    margin: 5px 0px;
+    width: 243px;
+    padding: 10px 0px 10px 10px;
+}
+
+button{
+    border: none;
+}
+
+.down{
+    display: flex; 
+    justify-content: space-between;
+     width: 260px;
+    margin: 10px auto;
+    font-size: 11px;
+}
+
+.down a{
+    color: blue; 
+    padding-top: 5px;
+}
+
+.icon{
+    height: 15px;
+    padding: 2px;
+}
+/*Constants*/
+.kred{
+    background-color: red;
+    color: white;
+     padding: 13px 0px;
+    width: 255px;
+}
+.kcenter{
+    text-align: center;
+}
+
+
+@media only screen and (max-width:600px){
+    .login-card{
+         font-family: Montserrat;
+        width: 400px;
+        background-color: aquamarine;
+    }
+    .kbutton{
+        
+    }
+}
+
+
